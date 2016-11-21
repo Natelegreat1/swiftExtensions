@@ -3,7 +3,7 @@ platform :ios, '9.0'
 use_frameworks!
 
 def shared_pods
-  pod 'NBSwift'
+  pod 'NBSwift', :git => 'https://github.com/Natelegreat1/swiftExtensions.git'
 end
 
 target 'NBSwift' do

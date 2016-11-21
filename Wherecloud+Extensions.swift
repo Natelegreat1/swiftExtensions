@@ -27,20 +27,20 @@ enum ScreenType: String {
 
 extension UIViewController {
     
-    func presentViewControllerOverContext(_ viewController: UIViewController, animated: Bool, completion: (() -> Void)?) {
+    public func presentViewControllerOverContext(_ viewController: UIViewController, animated: Bool, completion: (() -> Void)?) {
         viewController.modalPresentationStyle = .overCurrentContext
         viewController.modalTransitionStyle = .crossDissolve
         self.present(viewController, animated: animated, completion: completion)
         
     }
     
-    func registerForPushNotifications() {
+    public func registerForPushNotifications() {
         let settings = UIUserNotificationSettings(types: [.alert, .badge, .sound], categories: nil)
         UIApplication.shared.registerUserNotificationSettings(settings)
         UIApplication.shared.registerForRemoteNotifications()
     }
     
-    func isRootChildViewController() -> Bool {
+    public func isRootChildViewController() -> Bool {
         if let nav = self.navigationController, let rootChild = nav.childViewControllers.first, rootChild == self {
             return true
         } else {
@@ -48,7 +48,7 @@ extension UIViewController {
         }
     }
     
-    var className: String {
+    public var className: String {
         return NSStringFromClass(self.classForCoder).components(separatedBy: ".").last!
     }
 }
@@ -176,7 +176,7 @@ extension Date {
 }
 
 extension String{
-    var length: Int {
+    public var length: Int {
         return characters.count
     }
     

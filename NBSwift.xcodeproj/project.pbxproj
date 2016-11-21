@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9134D2A18E3082ED773FF542 /* Pods_NBSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 272C7A0AD24835DA995388FF /* Pods_NBSwift.framework */; };
 		F119AEF11DDCF55E00320533 /* NBSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F119AEE71DDCF55E00320533 /* NBSwift.framework */; };
 		F119AEF61DDCF55E00320533 /* NBSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F119AEF51DDCF55E00320533 /* NBSwiftTests.swift */; };
 		F119AEF81DDCF55E00320533 /* NBSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = F119AEEA1DDCF55E00320533 /* NBSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F18E1EC71DE35D78001B61BF /* NV+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E1EC51DE35D78001B61BF /* NV+Extensions.swift */; };
+		F18E1EC81DE35D78001B61BF /* Wherecloud+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E1EC61DE35D78001B61BF /* Wherecloud+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +26,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		272C7A0AD24835DA995388FF /* Pods_NBSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NBSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87D25DCDADB3018D5169A9EA /* Pods-NBSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NBSwift/Pods-NBSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		B2A1E48882F534C9AFF5BD02 /* Pods-NBSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-NBSwift/Pods-NBSwift.release.xcconfig"; sourceTree = "<group>"; };
 		F119AEE71DDCF55E00320533 /* NBSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NBSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F119AEEA1DDCF55E00320533 /* NBSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBSwift.h; sourceTree = "<group>"; };
 		F119AEEB1DDCF55E00320533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F119AEF01DDCF55E00320533 /* NBSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NBSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F119AEF51DDCF55E00320533 /* NBSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBSwiftTests.swift; sourceTree = "<group>"; };
 		F119AEF71DDCF55E00320533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F18E1EC51DE35D78001B61BF /* NV+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NV+Extensions.swift"; sourceTree = SOURCE_ROOT; };
+		F18E1EC61DE35D78001B61BF /* Wherecloud+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Wherecloud+Extensions.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9134D2A18E3082ED773FF542 /* Pods_NBSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +65,8 @@
 				F119AEE91DDCF55E00320533 /* NBSwift */,
 				F119AEF41DDCF55E00320533 /* NBSwiftTests */,
 				F119AEE81DDCF55E00320533 /* Products */,
+				F13E2E73C27CA97BFA6A41D9 /* Pods */,
+				FE79AB46858563E4F49FC439 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +82,8 @@
 		F119AEE91DDCF55E00320533 /* NBSwift */ = {
 			isa = PBXGroup;
 			children = (
+				F18E1EC51DE35D78001B61BF /* NV+Extensions.swift */,
+				F18E1EC61DE35D78001B61BF /* Wherecloud+Extensions.swift */,
 				F119AEEA1DDCF55E00320533 /* NBSwift.h */,
 				F119AEEB1DDCF55E00320533 /* Info.plist */,
 			);
@@ -84,6 +97,23 @@
 				F119AEF71DDCF55E00320533 /* Info.plist */,
 			);
 			path = NBSwiftTests;
+			sourceTree = "<group>";
+		};
+		F13E2E73C27CA97BFA6A41D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87D25DCDADB3018D5169A9EA /* Pods-NBSwift.debug.xcconfig */,
+				B2A1E48882F534C9AFF5BD02 /* Pods-NBSwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FE79AB46858563E4F49FC439 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				272C7A0AD24835DA995388FF /* Pods_NBSwift.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,10 +134,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F119AEFB1DDCF55E00320533 /* Build configuration list for PBXNativeTarget "NBSwift" */;
 			buildPhases = (
+				D23DDFE30FCBC8A36906A0C8 /* [CP] Check Pods Manifest.lock */,
 				F119AEE21DDCF55E00320533 /* Sources */,
 				F119AEE31DDCF55E00320533 /* Frameworks */,
 				F119AEE41DDCF55E00320533 /* Headers */,
 				F119AEE51DDCF55E00320533 /* Resources */,
+				9BD3E2A7186F7871158A265F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +181,7 @@
 					F119AEE61DDCF55E00320533 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 86AC3CZ5DN;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					F119AEEF1DDCF55E00320533 = {
@@ -193,11 +226,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9BD3E2A7186F7871158A265F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NBSwift/Pods-NBSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D23DDFE30FCBC8A36906A0C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F119AEE21DDCF55E00320533 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F18E1EC71DE35D78001B61BF /* NV+Extensions.swift in Sources */,
+				F18E1EC81DE35D78001B61BF /* Wherecloud+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,7 +389,9 @@
 		};
 		F119AEFC1DDCF55E00320533 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87D25DCDADB3018D5169A9EA /* Pods-NBSwift.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 86AC3CZ5DN;
@@ -335,13 +405,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nb.NBSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		F119AEFD1DDCF55E00320533 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2A1E48882F534C9AFF5BD02 /* Pods-NBSwift.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 86AC3CZ5DN;
@@ -362,6 +435,7 @@
 		F119AEFF1DDCF55E00320533 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 86AC3CZ5DN;
 				INFOPLIST_FILE = NBSwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -374,6 +448,7 @@
 		F119AF001DDCF55E00320533 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 86AC3CZ5DN;
 				INFOPLIST_FILE = NBSwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
