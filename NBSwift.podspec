@@ -8,6 +8,6 @@ Pod::Spec.new do |spec|
 
   spec.platform = :ios, "9.0"
   spec.requires_arc = true
-  spec.source = { git: "https://github.com/Natelegreat1/NBSwift.git", tag: "v#{spec.version}", submodules: true }
+  spec.source = { git: "https://github.com/Natelegreat1/swiftExtensions.git", tag: "v#{spec.version}", submodules: true }
   spec.source_files = "NBSwift/**/*.{h,swift}"
 end
