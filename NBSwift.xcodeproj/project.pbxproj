@@ -11,8 +11,8 @@
 		F119AEF11DDCF55E00320533 /* NBSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F119AEE71DDCF55E00320533 /* NBSwift.framework */; };
 		F119AEF61DDCF55E00320533 /* NBSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F119AEF51DDCF55E00320533 /* NBSwiftTests.swift */; };
 		F119AEF81DDCF55E00320533 /* NBSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = F119AEEA1DDCF55E00320533 /* NBSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F18E1EC71DE35D78001B61BF /* NV+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E1EC51DE35D78001B61BF /* NV+Extensions.swift */; };
-		F18E1EC81DE35D78001B61BF /* Wherecloud+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E1EC61DE35D78001B61BF /* Wherecloud+Extensions.swift */; };
+		F18E1EE91DE35F8B001B61BF /* NV+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E1EE71DE35F8B001B61BF /* NV+Extensions.swift */; };
+		F18E1EEA1DE35F8B001B61BF /* Wherecloud+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E1EE81DE35F8B001B61BF /* Wherecloud+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +35,8 @@
 		F119AEF01DDCF55E00320533 /* NBSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NBSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F119AEF51DDCF55E00320533 /* NBSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBSwiftTests.swift; sourceTree = "<group>"; };
 		F119AEF71DDCF55E00320533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F18E1EC51DE35D78001B61BF /* NV+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NV+Extensions.swift"; sourceTree = SOURCE_ROOT; };
-		F18E1EC61DE35D78001B61BF /* Wherecloud+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Wherecloud+Extensions.swift"; sourceTree = SOURCE_ROOT; };
+		F18E1EE71DE35F8B001B61BF /* NV+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NV+Extensions.swift"; sourceTree = "<group>"; };
+		F18E1EE81DE35F8B001B61BF /* Wherecloud+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Wherecloud+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +82,8 @@
 		F119AEE91DDCF55E00320533 /* NBSwift */ = {
 			isa = PBXGroup;
 			children = (
-				F18E1EC51DE35D78001B61BF /* NV+Extensions.swift */,
-				F18E1EC61DE35D78001B61BF /* Wherecloud+Extensions.swift */,
+				F18E1EE71DE35F8B001B61BF /* NV+Extensions.swift */,
+				F18E1EE81DE35F8B001B61BF /* Wherecloud+Extensions.swift */,
 				F119AEEA1DDCF55E00320533 /* NBSwift.h */,
 				F119AEEB1DDCF55E00320533 /* Info.plist */,
 			);
@@ -264,8 +264,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F18E1EC71DE35D78001B61BF /* NV+Extensions.swift in Sources */,
-				F18E1EC81DE35D78001B61BF /* Wherecloud+Extensions.swift in Sources */,
+				F18E1EE91DE35F8B001B61BF /* NV+Extensions.swift in Sources */,
+				F18E1EEA1DE35F8B001B61BF /* Wherecloud+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
